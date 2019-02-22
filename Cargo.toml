@@ -1,0 +1,10 @@
+[package]
+name = "tokio-trace-chrome-trace"
+version = "0.1.0"
+authors = ["Ted Mielczarek <ted@mielczarek.org>"]
+edition = "2018"
+
+[dependencies]
+tokio-trace-core = { git = "https://github.com/tokio-rs/tokio" }
+serde_json = "1.0.38"
+thread-id = "3.3.0"
